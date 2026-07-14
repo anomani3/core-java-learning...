@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f03a429-e496-4e00-afc0-a16fe28e0eb0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CoreJavaPractice/ashraf/rectangle/Fn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/dto/CartRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/dto/CartResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/dto/MenuItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/dto/NotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/entity/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/NomaniskababHomeserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/model/Banner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/model/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/repository/BannerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/repository/RestaurantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/service/HomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/test/java/com/nomaniskabab/homeservice/NomaniskababHomeserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/dto/MenuRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/dto/MenuResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/entity/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/repository/MenuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/config/NotificationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/dto/NotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/entity/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/config/PaymentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/dto/CartItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/dto/NotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/dto/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NomanisKababFB/NomanisKababBackend/nomaniskabab-service-registery/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First.java" beforeDir="false" afterPath="$PROJECT_DIR$/../First.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="36pIi4tgRiSofWdRicW5EiUpgFM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f03a429-e496-4e00-afc0-a16fe28e0eb0" name="Changes" comment="" />
+      <created>1765697210191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765697210191</updated>
+    </task>
+    <servers />
+  </component>
+</project>
