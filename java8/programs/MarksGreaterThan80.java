@@ -3,6 +3,7 @@ package ashraf.java8.programs;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static java.util.Arrays.stream;
 
@@ -36,5 +37,24 @@ public class MarksGreaterThan80 {
                 lst.stream()
                 .max(Comparator.comparing(Student::getScore))
                 .ifPresent(System.out::println);
+
+//                Average Score
+
+        System.out.println("AVerage score ");
+
+         double average=           lst.stream()
+                            .collect(Collectors.averagingInt(Student::getScore));
+        System.out.println(average);
+
+//        Sort student  by score
+
+        System.out.println("Sort student by score ..... Descending order");
+
+        lst.stream()
+                .sorted(Comparator.comparing(Student::getScore).reversed())
+                .forEach(System.out::println);
+
+        System.out.println("");
+
     }
 }
