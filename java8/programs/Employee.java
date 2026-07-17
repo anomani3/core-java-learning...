@@ -5,6 +5,7 @@ public class Employee {
      private String name;
     private double salary;
     private String dept;
+    private String gender;
 
 
     public Employee(int id,String name,double salary,String dept){
@@ -13,6 +14,14 @@ public class Employee {
         this.name=name;
         this.salary=salary;
         this.dept=dept;
+    }
+    public Employee(int id,String name,String gender){
+        this .id=id;
+        this.name=name;
+        this .gender=gender;
+    }
+    public String getGender(){
+        return gender;
     }
     public int getId(){
         return id;
@@ -34,7 +43,7 @@ public class Employee {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", salary=" + salary +
-                ", dept=" +dept+
+                ", dept=" +dept+ "gender= "+ gender+
                 '}';
     }
 
