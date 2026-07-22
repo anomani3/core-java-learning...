@@ -1,4 +1,4 @@
-package ashraf.java8.programs;
+package ashraf.ashraf.ashraf.ashraf.java8;
 
 public class Employee {
     private int id;
@@ -20,6 +20,9 @@ public class Employee {
         this.name=name;
         this .gender=gender;
     }
+
+
+
     public String getGender(){
         return gender;
     }
@@ -46,5 +49,7 @@ public class Employee {
                 ", dept=" +dept+ "gender= "+ gender+
                 '}';
     }
+
+
 
 }

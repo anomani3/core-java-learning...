@@ -1,4 +1,4 @@
-package ashraf.java8.programs;
+package ashraf.ashraf.ashraf.ashraf.java8;
 
 public class Student {
     private int id;

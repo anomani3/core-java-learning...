@@ -1,4 +1,4 @@
-package ashraf.java8.programs;
+package ashraf.ashraf.ashraf.ashraf.java8;
 
 import java.util.*;
 import java.util.function.Function;
