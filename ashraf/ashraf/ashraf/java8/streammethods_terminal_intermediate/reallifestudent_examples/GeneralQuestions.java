@@ -1,9 +1,6 @@
 package ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.reallifestudent_examples;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class GeneralQuestions {
 
@@ -54,6 +51,35 @@ public class GeneralQuestions {
                 .filter(n->n<0)
                 .forEach(System.out::println);
 
+        System.out.println("Longest String");
+
+        List<String> str=Arrays.asList("Pomegranate","Apple","","Mangoo","Carroot","Cucumber");
+
+        str.stream()
+                .filter(w->w.length()>5)
+                .forEach(System.out::println);
+
+        System.out.println("Ignore spaces");
+
+        str.stream()
+                .filter(s->!s.trim().isEmpty())
+                .forEach(System.out::println);
+
+        System.out.println("Word containing oo");
+
+        str.stream()
+                .filter(s->s.contains("oo"))
+                .forEach(System.out::println);
+
+        System.out.println("");
+
+        System.out.println("Longest String ************");
+
+        String res=   str.stream()
+                .max(Comparator.comparing(String::length))
+                .orElse(null);
+
+        System.out.println(res);
 
 
     }
