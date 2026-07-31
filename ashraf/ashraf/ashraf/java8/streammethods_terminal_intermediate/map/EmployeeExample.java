@@ -33,6 +33,7 @@ public class EmployeeExample {
 
 
         System.out.println("Increase salary by 10%");
+        System.out.println("checking git commit and pushgit ");
 
         employeeList.stream()
                 .map(e -> e.getSalary() * 1.10)
