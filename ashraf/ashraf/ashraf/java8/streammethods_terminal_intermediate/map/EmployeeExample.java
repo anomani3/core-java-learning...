@@ -45,5 +45,11 @@ public class EmployeeExample {
         employeeList.stream()
                 .map(Employee::getDepartment)
                 .forEach(System.out::println);
+
+        System.out.println("EMployee name and salary");
+
+        employeeList.stream()
+                .map(e->e.getName()+" "+ e.getSalary())
+                .forEach(System.out::println);
     }
 }
