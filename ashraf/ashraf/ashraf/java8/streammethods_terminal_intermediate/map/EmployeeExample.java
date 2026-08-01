@@ -4,6 +4,7 @@ import ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.rea
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class EmployeeExample {
     public static void main(String[] args) {
@@ -51,5 +52,50 @@ public class EmployeeExample {
         employeeList.stream()
                 .map(e->e.getName()+" "+ e.getSalary())
                 .forEach(System.out::println);
+
+        System.out.println("FirstCharacter of names");
+
+        List<String> names = Arrays.asList("    Ashraf", "Farhat  ", "Arish ", "Harish", " Zeeshan");
+        names.stream()
+                .map(n->n.toLowerCase().charAt(0))
+                .forEach(System.out::println);
+
+        System.out.println("Reverse every String");
+
+        names.stream()
+                .map(n->new StringBuffer(n).reverse().toString())
+                .forEach(System.out::println);
+
+        System.out.println("Trim Spaces");
+
+        names.stream()
+                .map(String::trim)
+                .forEach(System.out::println);
+
+        System.out.println("Convert marks to grades");
+
+        List<Integer> marks=Arrays.asList(90,70,30,50,60,77,88,90);
+
+        marks.stream()
+                .map(m->m>80 ? "A": "B")
+                .forEach(System.out::println);
+
+        System.out.println("mixing of map and filter");
+
+        System.out.println("Find the name of emp whose salary is greater than 7000");
+
+        employeeList.stream()
+                .filter(e->e.getSalary()>7000)
+                .map(Employee::getName)
+                .forEach(System.out::println);
+
+        System.out.println("Collect named into list");
+
+        List<String> res=employeeList.stream()
+                .map(Employee::getName)
+                .collect(Collectors.toList());
+
+        System.out.println(res);
+
     }
 }
