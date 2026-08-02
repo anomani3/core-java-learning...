@@ -3,6 +3,7 @@ package ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.so
 import ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.reallife_employee_example.Employee;
 
 import java.util.*;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public class SortDemo {
@@ -116,5 +117,19 @@ public class SortDemo {
                 .filter(e->e.getValue()>1)
                 .map(Map.Entry::getKey)
                 .forEach(System.out::println);
+
+        System.out.println("Find duplicate character from string");
+
+        String st="Programmingp";
+
+        Set<String> ss=new HashSet<>();
+
+        st.chars()
+                .mapToObj(c->(char) c)
+                .filter(c->!ss.add(String.valueOf(c)))
+                .forEach(System.out::println);
+
+
+        System.out.println();
     }
 }
