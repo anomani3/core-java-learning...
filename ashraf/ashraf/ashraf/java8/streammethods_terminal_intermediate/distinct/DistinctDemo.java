@@ -93,5 +93,6 @@ public class DistinctDemo {
                 .map(Employee::getSalary)
                 .distinct()
                 .forEach(System.out::println);
+
     }
 }
