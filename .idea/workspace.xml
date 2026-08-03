@@ -5,91 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef5da11-1b77-43f4-9a95-3330642af463" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/customerservice/customerservice/src/main/java/com/customerservice/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/customerservice/customerservice/src/main/java/com/customerservice/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/customerservice/customerservice/src/main/java/com/customerservice/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/customerservice/customerservice/src/main/java/com/customerservice/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/customerservice/customerservice/src/main/java/com/customerservice/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/customerservice/customerservice/src/main/java/com/customerservice/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/customerservice/customerservice/src/main/java/com/customerservice/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/customerservice/customerservice/src/main/java/com/customerservice/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/equipment-service/equipment-service/src/main/java/com/backerhughes/equipmentservice/controller/EquipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/equipment-service/equipment-service/src/main/java/com/backerhughes/equipmentservice/controller/EquipmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/equipment-service/equipment-service/src/main/java/com/backerhughes/equipmentservice/entity/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/equipment-service/equipment-service/src/main/java/com/backerhughes/equipmentservice/entity/Equipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/equipment-service/equipment-service/src/main/java/com/backerhughes/equipmentservice/repository/EquipmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/equipment-service/equipment-service/src/main/java/com/backerhughes/equipmentservice/repository/EquipmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/equipment-service/equipment-service/src/main/java/com/backerhughes/equipmentservice/service/EquipmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/equipment-service/equipment-service/src/main/java/com/backerhughes/equipmentservice/service/EquipmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/congig/CustomerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/congig/CustomerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/congig/EquipmentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/congig/EquipmentClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/dto/CustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/dto/CustomerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/dto/EquipmentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/dto/EquipmentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/dto/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/dto/OrderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAProblems/CharacterCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAProblems/DistinctArrayBF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAProblems/DistinctArrayHashSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAProblems/DistinctArrayUsingSorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAProblems/KToPowNProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAProblems/KtoPowerNByRecursion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAProblems/TransposeMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAProblems/_3SumProblemBruteForce.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSGGlobal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mphasis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstraction/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstraction/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ashraf.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CoreJavaPractice/ashraf/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/CoreJavaPractice/ashraf/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/CoreJavaPractice/ashraf/MSGGlobal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DSAGFGJAVa/DSAGFG/src/main/java/org/ashraf/array/ArrayShortWithoutUsingInbuiltMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSAGFGJAVa/DSAGFG/src/main/java/org/ashraf/array/ArrayShortWithoutUsingInbuiltMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FlutterFrontEnd/NomanisKababBackend/Nomanis Kabab/Nomanis-Kabab/src/main/java/com/nomaniskabab/authservice/config/CorsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FlutterFrontEnd/NomanisKababBackend/Nomanis Kabab/Nomanis-Kabab/src/main/java/com/nomaniskabab/authservice/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FlutterFrontEnd/NomanisKababBackend/Nomanis Kabab/Nomanis-Kabab/src/main/java/com/nomaniskabab/authservice/controller/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FlutterFrontEnd/NomanisKababBackend/Nomanis Kabab/Nomanis-Kabab/src/main/java/com/nomaniskabab/authservice/dto/AuthRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FlutterFrontEnd/NomanisKababBackend/Nomanis Kabab/Nomanis-Kabab/src/main/java/com/nomaniskabab/authservice/dto/AuthResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FlutterFrontEnd/NomanisKababBackend/Nomanis Kabab/Nomanis-Kabab/src/main/java/com/nomaniskabab/authservice/dto/RegisterRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FlutterFrontEnd/NomanisKababBackend/Nomanis Kabab/Nomanis-Kabab/src/main/java/com/nomaniskabab/authservice/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FlutterFrontEnd/NomanisKababBackend/Nomanis Kabab/Nomanis-Kabab/src/main/java/com/nomaniskabab/authservice/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FlutterFrontEnd/NomanisKababBackend/Nomanis Kabab/Nomanis-Kabab/src/main/java/com/nomaniskabab/authservice/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FlutterFrontEnd/NomanisKababBackend/Nomanis Kabab/Nomanis-Kabab/src/main/java/com/nomaniskabab/authservice/util/JwtUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/config/RestTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/dto/CartRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/dto/CartRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/dto/NotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/dto/NotificationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/entity/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/entity/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/repository/CartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/java/com/nomaniskabab/cartservice/service/CartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-cart-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/NomaniskababHomeserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/NomaniskababHomeserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/model/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/model/Banner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/model/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/model/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/repository/BannerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/repository/BannerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/repository/RestaurantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/repository/RestaurantRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/service/HomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-homeservice/nomaniskabab-homeservice/src/main/java/com/nomaniskabab/homeservice/service/HomeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/dto/MenuRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/dto/MenuRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/dto/MenuResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/dto/MenuResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/entity/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/entity/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/repository/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/repository/MenuRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-menu-service/src/main/java/com/nomaniskabab/menuservice/service/MenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/config/NotificationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/config/NotificationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/controller/NotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/dto/NotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/dto/NotificationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/entity/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/entity/Notification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/repository/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/repository/NotificationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-notification-service/src/main/java/com/nomaniskabab/notification_service/service/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/config/PaymentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/config/PaymentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/dto/CartItemResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/dto/CartItemResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/dto/NotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/dto/NotificationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/dto/PaymentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/dto/PaymentRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/entity/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/repository/PaymentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-payment-service/src/main/java/com/nomaniskabab/payment_sevice/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-service-registery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NomanisKababFB/NomanisKababBackend/nomaniskabab-service-registery/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/distinct/DistinctDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/distinct/DistinctDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8/SecondHighestSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/java8/SecondHighestSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ashraf/ashraf/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ashraf/ashraf/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ashraf/ashraf/java8/SecondHighestSalary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ashraf/ashraf/java8/SecondHighestSalary.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +27,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -120,6 +46,7 @@
   "keyToString": {
     "Application.AverageSalary.executor": "Run",
     "Application.Demo.executor": "Run",
+    "Application.DistinctDemo.executor": "Run",
     "Application.DuplicateNumbers.executor": "Run",
     "Application.EvenOdd.executor": "Run",
     "Application.ExceptiondEmon.executor": "Run",
@@ -144,18 +71,31 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/release1",
+    "git-widget-placeholder": "feature/javacoding",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Mphasis_Palenfrome_reverse_Stringprogra">
+  <component name="RunManager" selected="Application.DistinctDemo">
     <configuration name="AverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.java8.programs.ey.AverageSalary" />
       <module name="ashraf" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ashraf.ashraf.java8.programs.ey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistinctDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.DistinctDemo" />
+      <module name="ashraf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,26 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ashraf.univesity_management.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ashraf.univesity_management.Main" />
-      <module name="ashraf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ashraf.univesity_management.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DistinctDemo" />
         <item itemvalue="Application.Mphasis_Palenfrome_reverse_Stringprogra" />
         <item itemvalue="Application.ashraf.ashraf.ashraf.ashraf.java8.AverageSalary" />
         <item itemvalue="Application.DuplicateNumbers" />
         <item itemvalue="Application.AverageSalary" />
-        <item itemvalue="Application.ashraf.univesity_management.Main" />
       </list>
     </recent_temporary>
   </component>
