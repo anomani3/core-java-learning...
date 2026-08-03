@@ -93,6 +93,13 @@ public class DistinctDemo {
                 .map(Employee::getSalary)
                 .distinct()
                 .forEach(System.out::println);
+        System.out.println("Sorted + distinct");
 
+        System.out.println("Distinct Employee Names in Upper case");
+
+        emplst.stream()
+                .map(e->e.getName().toUpperCase())
+                .distinct()
+                .forEach(System.out::println);
     }
 }
