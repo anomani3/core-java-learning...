@@ -71,20 +71,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DistinctDemo">
-    <configuration name="AverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.java8.programs.ey.AverageSalary" />
-      <module name="ashraf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ashraf.ashraf.java8.programs.ey.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LimitDemo">
     <configuration name="DistinctDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.DistinctDemo" />
       <module name="ashraf" />
@@ -104,6 +91,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LimitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.limit.LimitDemo" />
+      <module name="ashraf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.limit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LimitDemo" />
         <item itemvalue="Application.DistinctDemo" />
         <item itemvalue="Application.Mphasis_Palenfrome_reverse_Stringprogra" />
         <item itemvalue="Application.ashraf.ashraf.ashraf.ashraf.java8.AverageSalary" />
         <item itemvalue="Application.DuplicateNumbers" />
-        <item itemvalue="Application.AverageSalary" />
       </list>
     </recent_temporary>
   </component>

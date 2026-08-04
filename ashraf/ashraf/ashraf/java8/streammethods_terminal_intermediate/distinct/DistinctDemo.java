@@ -113,5 +113,7 @@ public class DistinctDemo {
 
         System.out.println(res);
 
+        System.out.println("");
+
     }
 }
