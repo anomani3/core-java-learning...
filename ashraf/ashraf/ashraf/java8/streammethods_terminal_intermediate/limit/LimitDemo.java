@@ -5,6 +5,8 @@ import ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.rea
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class LimitDemo {
     public static void main(String[] args) {
@@ -85,5 +87,50 @@ public class LimitDemo {
         emplst.stream()
                 .limit(5)
                 .forEach(System.out::println);
+
+        System.out.println("First 3 Department");
+
+        emplst.stream()
+                .map(Employee::getDepartment)
+                .sorted(Comparator.reverseOrder())
+                .limit(3)
+                .forEach(System.out::println);
+
+        System.out.println("Distinct Department only first 2");
+
+        emplst.stream()
+                .map(Employee::getDepartment)
+                .distinct()
+                .limit(2)
+                .forEach(System.out::println);
+
+        System.out.println("First four Even Numberes");
+
+        lst.stream()
+                .filter(e->e%2==0)
+                .limit(4)
+                .forEach(System.out::println);
+        System.out.println("First three names starting with A");
+
+        names.stream()
+                .filter(n->n.toLowerCase().startsWith("a"))
+                .limit(3)
+                .forEach(System.out::println);
+
+        System.out.println("First 2 Employee from IT Depatment");
+
+      Map<String,List<Employee>> result= emplst.stream()
+                .collect(Collectors.groupingBy(
+                        e->e.getDepartment()
+                ));
+
+      result.get("IT")
+              .stream()
+              .limit(2)
+              .forEach(System.out::println);
+
+        System.out.println("first five unique numbers");
+
+
     }
 }
