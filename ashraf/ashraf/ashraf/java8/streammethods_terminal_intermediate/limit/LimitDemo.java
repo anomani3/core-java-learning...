@@ -131,6 +131,19 @@ public class LimitDemo {
 
         System.out.println("first five unique numbers");
 
+        List<Integer> list = Arrays.asList(1,2,2,3,3,4,5,5,6);
 
+        list.stream()
+                .sorted()
+                .distinct()
+                .limit(5)
+                .forEach(System.out::println);
+
+        System.out.println("First 2 female employees");
+
+        emplst.stream()
+                .filter(e->e.getGender().equalsIgnoreCase("F"))
+                .limit(2)
+                .forEach(System.out::println);
     }
 }
