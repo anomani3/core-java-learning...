@@ -4,6 +4,8 @@ import ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.rea
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public class DistinctDemo {
     public static void main(String[] args) {
@@ -50,7 +52,7 @@ public class DistinctDemo {
                 new Employee(3,"Arish","Pharmacy","M",7000),
                 new Employee(4,"Kaju","Mechanical","M",10000),
                 new Employee(5,"Raju","IT","F",3000),
-                new Employee(6, "Priya", "Finance", "F", 15000),
+                new Employee(6, "Arish", "Finance", "F", 15000),
                 new Employee(7, "Rahul", "IT", "M", 18000),
                 new Employee(8, "Sneha", "HR", "F", 9000),
                 new Employee(9, "Amit", "Sales", "M", 14000),
@@ -101,5 +103,15 @@ public class DistinctDemo {
                 .map(e->e.getName().toUpperCase())
                 .distinct()
                 .forEach(System.out::println);
+
+        System.out.println("Remove duplicate names and store in set");
+
+        Set<String> res=emplst.stream()
+                .map(e->e.getName())
+                .distinct()
+                .collect(Collectors.toSet());
+
+        System.out.println(res);
+
     }
 }
