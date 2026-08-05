@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef5da11-1b77-43f4-9a95-3330642af463" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/skip/SkipDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/limit/LimitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/limit/LimitDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ashraf/ashraf/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/limit/LimitDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ashraf/ashraf/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/limit/LimitDemo.class" afterDir="false" />
@@ -61,6 +62,7 @@
     "Application.OccuranceOfCharacter.executor": "Run",
     "Application.ReplaceDigitStartsWith1.executor": "Run",
     "Application.SecondHighestSalary.executor": "Run",
+    "Application.SkipDemo.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.SumOfDiagonalsMatrix.executor": "Run",
     "Application.ashraf.ashraf.ashraf.ashraf.java8.AverageSalary.executor": "Run",
@@ -74,26 +76,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LimitDemo">
+  <component name="RunManager" selected="Application.SkipDemo">
     <configuration name="DistinctDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.DistinctDemo" />
       <module name="ashraf" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DuplicateNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.DuplicateNumbers" />
-      <module name="ashraf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SkipDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.skip.SkipDemo" />
+      <module name="ashraf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.skip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ashraf.ashraf.ashraf.ashraf.java8.AverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.AverageSalary" />
       <module name="ashraf" />
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SkipDemo" />
         <item itemvalue="Application.LimitDemo" />
         <item itemvalue="Application.DistinctDemo" />
         <item itemvalue="Application.Mphasis_Palenfrome_reverse_Stringprogra" />
         <item itemvalue="Application.ashraf.ashraf.ashraf.ashraf.java8.AverageSalary" />
-        <item itemvalue="Application.DuplicateNumbers" />
       </list>
     </recent_temporary>
   </component>

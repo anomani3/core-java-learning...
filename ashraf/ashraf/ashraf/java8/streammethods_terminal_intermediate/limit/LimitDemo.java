@@ -145,5 +145,7 @@ public class LimitDemo {
                 .filter(e->e.getGender().equalsIgnoreCase("F"))
                 .limit(2)
                 .forEach(System.out::println);
+
+
     }
 }
