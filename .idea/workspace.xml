@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef5da11-1b77-43f4-9a95-3330642af463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java8/features/functionalinterfaceex/runnableDemo/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/distinct/PrefixCa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/distinct/DistinctDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/distinct/DistinctDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ashraf/ashraf/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/distinct/DistinctDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ashraf/ashraf/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/distinct/DistinctDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,43 +40,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AverageSalary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DistinctDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DuplicateNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenOdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptiondEmon.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindSquaeOfEvenNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HighestSalary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LimitDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MAin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MarksGreaterThan80.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxSalFromEachDept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Mphasis_Palenfrome_reverse_Stringprogra.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NameOfEmployeeStartsWithS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberOfMailAndFemaleEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OccuranceOfCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReplaceDigitStartsWith1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondHighestSalary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SkipDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfDiagonalsMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ashraf.ashraf.ashraf.ashraf.java8.AverageSalary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ashraf.univesity_management.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/javacoding&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AverageSalary.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.DistinctDemo.executor": "Run",
+    "Application.DuplicateNumbers.executor": "Run",
+    "Application.EvenOdd.executor": "Run",
+    "Application.ExceptiondEmon.executor": "Run",
+    "Application.FindDuplicate.executor": "Run",
+    "Application.FindSquaeOfEvenNumbers.executor": "Run",
+    "Application.HighestSalary.executor": "Run",
+    "Application.LimitDemo.executor": "Run",
+    "Application.MAin.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MarksGreaterThan80.executor": "Run",
+    "Application.MaxSalFromEachDept.executor": "Run",
+    "Application.Mphasis_Palenfrome_reverse_Stringprogra.executor": "Run",
+    "Application.NameOfEmployeeStartsWithS.executor": "Run",
+    "Application.NumberOfMailAndFemaleEmployee.executor": "Run",
+    "Application.OccuranceOfCharacter.executor": "Run",
+    "Application.PalindromeCheck.executor": "Run",
+    "Application.ReplaceDigitStartsWith1.executor": "Run",
+    "Application.SecondHighestSalary.executor": "Run",
+    "Application.SkipDemo.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.SumOfDiagonalsMatrix.executor": "Run",
+    "Application.ashraf.ashraf.ashraf.ashraf.java8.AverageSalary.executor": "Run",
+    "Application.ashraf.univesity_management.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/javacoding",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.PalindromeCheck">
+}]]></component>
+  <component name="RunManager" selected="Application.PrefixCa">
     <configuration name="DistinctDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.DistinctDemo" />
       <module name="ashraf" />
@@ -101,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mphasis_Palenfrome_reverse_Stringprogra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.Mphasis_Palenfrome_reverse_Stringprogra" />
+    <configuration name="PalindromeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.PalindromeCheck" />
       <module name="ashraf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.*" />
+          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.PalindromeCheck" />
+    <configuration name="PrefixCa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.PrefixCa" />
       <module name="ashraf" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrefixCa" />
+        <item itemvalue="Application.DistinctDemo" />
         <item itemvalue="Application.PalindromeCheck" />
         <item itemvalue="Application.SkipDemo" />
         <item itemvalue="Application.LimitDemo" />
-        <item itemvalue="Application.DistinctDemo" />
-        <item itemvalue="Application.Mphasis_Palenfrome_reverse_Stringprogra" />
       </list>
     </recent_temporary>
   </component>

@@ -86,7 +86,7 @@ public class DistinctDemo {
         emplst.stream()
                 .map(Employee::getSalary)
                 .distinct()
-                .forEach(System.out::println);
+                .forEach(x->System.out.println(x));
 
         System.out.println("Filterf + Distinct");
 
