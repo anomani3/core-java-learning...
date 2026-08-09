@@ -2,6 +2,7 @@ package ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class ReduceDemo {
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class ReduceDemo {
 
         System.out.println("Sum Of Numbers");
 
-        List<Integer> nums= Arrays.asList(1,3,4,5,6,7,8,10);
+        List<Integer> nums= Arrays.asList(1,3,4,5,6,21,7,8,10,18,20);
 
         int res = nums.stream()
                 .reduce((a, b) -> a + b)
@@ -48,12 +49,39 @@ public class ReduceDemo {
 
         System.out.println("Find Minimum");
 
-        List<Integer> lst=Arrays.asList(0,1,2,4,6,-1);
+        List<Integer> lst=Arrays.asList(1,2,4,6,-1);
 
         int res4=lst.stream()
                 .reduce(Integer::min)
                 .orElse(0);
 
         System.out.println(res4);
+
+        System.out.println("Multiplay all Numbers");
+
+        int res5=lst.stream()
+                .reduce(1,(a,b)->a*b);
+        System.out.println(res5);
+
+        System.out.println("Find sum of Even Numbers");
+
+     Optional<Integer> res6=  nums.stream()
+                .filter(n->n%2==0)
+//                .reduce(0,(a,b)->a+b);
+
+        .reduce(Integer::sum);
+
+        System.out.println(res6);
+
+
+        System.out.println("Sum of numbers greater than 10");
+
+       int res7= nums.stream()
+                .filter(n->n>10)
+                .reduce(0,(a,b)->a+b);
+
+        System.out.println(res7);
+
+
     }
 }
