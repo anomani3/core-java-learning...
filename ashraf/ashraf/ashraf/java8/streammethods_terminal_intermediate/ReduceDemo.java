@@ -36,5 +36,24 @@ public class ReduceDemo {
 
         System.out.println(res2);
 
+
+        System.out.println("Find maximum Numbers");
+
+      int res3=  nums.stream()
+                .reduce(Integer::max)
+                .orElse(0);
+
+        System.out.println(res3);
+
+
+        System.out.println("Find Minimum");
+
+        List<Integer> lst=Arrays.asList(0,1,2,4,6,-1);
+
+        int res4=lst.stream()
+                .reduce(Integer::min)
+                .orElse(0);
+
+        System.out.println(res4);
     }
 }
