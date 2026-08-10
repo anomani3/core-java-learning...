@@ -119,5 +119,15 @@ public class ReduceDemo {
         String concres=names.stream()
                 .reduce("",(a,b)->a+" "+b);
         System.out.println(concres);
+
+        System.out.println("Count total characters");
+
+       int totalChar= names.stream()
+                .map(String::length)
+                .reduce(0,Integer::sum);
+
+        System.out.println(totalChar);
+
+
     }
 }

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef5da11-1b77-43f4-9a95-3330642af463" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/sort/ReduceEmployeeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/ReduceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/ReduceDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ashraf/ashraf/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/ReduceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ashraf/ashraf/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/ReduceDemo.class" afterDir="false" />
@@ -62,6 +63,7 @@
     "Application.PalindromeCheck.executor": "Run",
     "Application.PrefixCa.executor": "Run",
     "Application.ReduceDemo.executor": "Run",
+    "Application.ReduceEmployeeDemo.executor": "Run",
     "Application.ReplaceDigitStartsWith1.executor": "Run",
     "Application.SecondHighestSalary.executor": "Run",
     "Application.SkipDemo.executor": "Run",
@@ -78,7 +80,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReduceDemo">
+  <component name="RunManager" selected="Application.ReduceEmployeeDemo">
     <configuration name="DistinctDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.distinct.DistinctDemo" />
       <module name="ashraf" />
@@ -131,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkipDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.skip.SkipDemo" />
+    <configuration name="ReduceEmployeeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.sort.ReduceEmployeeDemo" />
       <module name="ashraf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.skip.*" />
+          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReduceEmployeeDemo" />
         <item itemvalue="Application.ReduceDemo" />
         <item itemvalue="Application.PrefixCa" />
         <item itemvalue="Application.DistinctDemo" />
         <item itemvalue="Application.PalindromeCheck" />
-        <item itemvalue="Application.SkipDemo" />
       </list>
     </recent_temporary>
   </component>
