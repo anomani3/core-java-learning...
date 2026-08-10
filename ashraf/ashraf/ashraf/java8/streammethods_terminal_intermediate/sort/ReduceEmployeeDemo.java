@@ -46,5 +46,15 @@ public class ReduceEmployeeDemo {
 
         System.out.println(ITHS);
 
+        System.out.println("Total salary above 5000");
+
+      double salarygrreater5k=  emplst.stream()
+                .filter(e->e.getSalary()>5000)
+                .map(Employee::getSalary)
+                .reduce(0.0,Double::sum);
+
+        System.out.println(salarygrreater5k);
+
+        System.out.println("");
     }
 }
