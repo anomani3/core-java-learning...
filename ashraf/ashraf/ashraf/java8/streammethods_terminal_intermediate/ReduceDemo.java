@@ -1,5 +1,6 @@
 package ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate;
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -82,6 +83,41 @@ public class ReduceDemo {
 
         System.out.println(res7);
 
+        List<String> names = Arrays.asList(
+                "Ashraf",
+                "Arish",
+                "SpringBoot",
+                "AWS"
+        );
 
+        System.out.println("Find Longest String");
+
+        String sres=names.stream()
+                .reduce("",(a,b)->a.length() > b.length() ? a:b);
+
+        System.out.println(sres);
+
+
+        System.out.println("Find Shortest String");
+
+     String shortestStr=names.stream()
+                .reduce("",(a,b)->
+                        a.length() < b.length() ? a : b);
+
+        System.out.println(shortestStr);
+
+
+        System.out.println("Concatinate String");
+
+       String conct= names.stream()
+                .reduce("",(a,b)->a+b);
+
+        System.out.println(conct);
+
+        System.out.println("Concatinate with spaces");
+
+        String concres=names.stream()
+                .reduce("",(a,b)->a+" "+b);
+        System.out.println(concres);
     }
 }
