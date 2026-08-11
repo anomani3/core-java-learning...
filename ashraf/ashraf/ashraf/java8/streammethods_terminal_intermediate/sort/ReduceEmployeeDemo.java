@@ -6,6 +6,7 @@ import ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.rea
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 public class ReduceEmployeeDemo {
     public static void main(String[] args) {
@@ -55,6 +56,26 @@ public class ReduceEmployeeDemo {
 
         System.out.println(salarygrreater5k);
 
-        System.out.println("");
+        System.out.println(" Occurance of I in a String");
+
+        String s="Hello I am from India and I am a good Boy IIIiiii";
+
+       long r= s.toLowerCase()
+                .chars()
+                .filter(c->c=='i')
+                .count();
+
+        System.out.println(r);
+
+
+        System.out.println("Redice +Sorted");
+
+     double re=   emplst.stream()
+                .filter(e->e.getSalary()>5000)
+                .map(Employee::getSalary)
+                .reduce(0.0,(a,b)->a+b);
+
+        System.out.println(re);
+
     }
 }
