@@ -77,5 +77,8 @@ public class ReduceEmployeeDemo {
 
         System.out.println(re);
 
+        System.out.println("Anagram");
+
+
     }
 }
