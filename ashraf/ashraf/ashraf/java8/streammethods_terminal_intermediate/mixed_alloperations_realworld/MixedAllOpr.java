@@ -41,5 +41,19 @@ public class MixedAllOpr {
                 .filter(e->e.getDepartment().equalsIgnoreCase("IT"))
                 .map(Employee::getName)
                 .forEach(System.out::println);
+
+
+        System.out.println(" find unique departments");
+
+        String s="Welcome";
+        String sv="Welcome";
+
+        System.out.println(s.equals(sv));
+
+        int i=128;
+        int j =128;
+        System.out.println(i==j);
+
+
     }
 }
