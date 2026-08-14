@@ -2,9 +2,10 @@ package ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.mi
 
 import ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.reallife_employee_example.Employee;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
+
+import static java.util.Arrays.stream;
 
 public class MixedAllOpr {
     public static void main(String[] args) {
@@ -119,5 +120,14 @@ public class MixedAllOpr {
                 .sorted()
                 .forEach(System.out::println);
 
+        System.out.println("sort by department then salary");
+
+       Map<String,List<Double>> res=emplst.stream()
+                .collect(Collectors.groupingBy(Employee::getName,Collectors.mapping(
+                        Employee::getSalary,Collectors.toList()
+                )));
+       res.values().forEach(Collections::sort);
+
+        System.out.println(res);
     }
 }
