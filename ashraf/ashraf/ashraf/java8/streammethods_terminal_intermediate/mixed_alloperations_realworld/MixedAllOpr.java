@@ -3,6 +3,7 @@ package ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.mi
 import ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.reallife_employee_example.Employee;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class MixedAllOpr {
@@ -50,9 +51,67 @@ public class MixedAllOpr {
 
         System.out.println(s.equals(sv));
 
+        System.out.println("Hashcode value");
+        System.out.println(s.hashCode());
+        System.out.println(sv.hashCode());
+
+        System.out.println(s==sv);
+
         int i=128;
         int j =128;
+        Integer k=128;
+        Integer l=128;
+
+        System.out.println("integer");
+
+        System.out.println(k.equals(l));
+        System.out.println(k==l);
+
+        System.out.println(k.hashCode());
+
+        System.out.println(l.hashCode());
         System.out.println(i==j);
+        System.out.println("Hashcode value of String with new keyword");
+
+        String sn=new String("Hello");
+        String sn1=new String("Hello");
+
+        System.out.println(sn.hashCode());
+        System.out.println(sn1.hashCode());
+
+
+        System.out.println("Find unique departments");
+
+        emplst.stream()
+                .map(Employee::getDepartment)
+                .distinct()
+                .forEach(System.out::println);
+
+
+        System.out.println("EMployee name starting with a");
+
+        emplst.stream()
+                .filter(e->e.getName().toLowerCase().startsWith("a"))
+                .forEach(System.out::println);
+
+
+        System.out.println("Level 2");
+
+        System.out.println("Sort employee by salary ascending order");
+
+        emplst.stream()
+                .map(Employee::getSalary)
+                .sorted()
+                .forEach(System.out::println);
+
+
+        System.out.println("Sort slary By descending order");
+
+        emplst.stream()
+                .map(Employee::getSalary)
+                .sorted(Comparator.reverseOrder())
+                .forEach(System.out::println);
+
 
 
     }
