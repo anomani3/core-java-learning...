@@ -112,7 +112,12 @@ public class MixedAllOpr {
                 .sorted(Comparator.reverseOrder())
                 .forEach(System.out::println);
 
+        System.out.println("Sort Employee by name");
 
+        emplst.stream()
+                .map(Employee::getName)
+                .sorted()
+                .forEach(System.out::println);
 
     }
 }
