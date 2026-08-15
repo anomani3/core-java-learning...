@@ -140,5 +140,7 @@ public class MixedAllOpr {
                 .findFirst()
                 .ifPresent(System.out::println);
 
+        System.out.println("");
+
     }
 }
