@@ -129,5 +129,16 @@ public class MixedAllOpr {
        res.values().forEach(Collections::sort);
 
         System.out.println(res);
+
+        System.out.println("Level 3");
+
+        System.out.println("Highest paid employees");
+
+        emplst.stream()
+                .map(Employee::getSalary)
+                .sorted(Comparator.reverseOrder())
+                .findFirst()
+                .ifPresent(System.out::println);
+
     }
 }
