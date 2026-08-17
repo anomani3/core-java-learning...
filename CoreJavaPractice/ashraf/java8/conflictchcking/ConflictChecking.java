@@ -5,6 +5,6 @@ class ConflictChecking {
 System.out.println("Hello Kamrudding how are you?");
 
 System.out.println("java ");
-
+System.out.println("Kamruddin pushed");
     }
 }
