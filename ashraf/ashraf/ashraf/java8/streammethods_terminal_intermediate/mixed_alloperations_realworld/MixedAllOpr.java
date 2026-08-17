@@ -1,0 +1,146 @@
+package ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.mixed_alloperations_realworld;
+
+import ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.reallife_employee_example.Employee;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+import static java.util.Arrays.stream;
+
+public class MixedAllOpr {
+    public static void main(String[] args) {
+
+
+        List<Employee> emplst= Arrays.asList(
+                new Employee(1,"Ashraf","IT","M",12000),
+                new Employee(2,"Manju","HR","F",7000),
+                new Employee(3,"Arish","Pharmacy","M",6000),
+                new Employee(4,"Kaju","Mechanical","M",10000),
+                new Employee(5,"Raju","IT","F",3000),
+                new Employee(6, "Priya", "Finance", "F", 15000),
+                new Employee(7, "Rahul", "IT", "M", 18000),
+                new Employee(8, "Sneha", "HR", "F", 9000)
+        );
+
+        System.out.println("Employees salary greater than 5000");
+
+        emplst.stream()
+                .filter(e->e.getSalary()>5000)
+                .forEach(System.out::println);
+
+
+        System.out.println("Get only employees Names");
+
+        emplst.stream()
+                .map(Employee::getName)
+                .forEach(System.out::println);
+
+
+        System.out.println("Get only It employees names");
+
+
+        emplst.stream()
+                .filter(e->e.getDepartment().equalsIgnoreCase("IT"))
+                .map(Employee::getName)
+                .forEach(System.out::println);
+
+
+        System.out.println(" find unique departments");
+
+        String s="Welcome";
+        String sv="Welcome";
+
+        System.out.println(s.equals(sv));
+
+        System.out.println("Hashcode value");
+        System.out.println(s.hashCode());
+        System.out.println(sv.hashCode());
+
+        System.out.println(s==sv);
+
+        int i=128;
+        int j =128;
+        Integer k=128;
+        Integer l=128;
+
+        System.out.println("integer");
+
+        System.out.println(k.equals(l));
+        System.out.println(k==l);
+
+        System.out.println(k.hashCode());
+
+        System.out.println(l.hashCode());
+        System.out.println(i==j);
+        System.out.println("Hashcode value of String with new keyword");
+
+        String sn=new String("Hello");
+        String sn1=new String("Hello");
+
+        System.out.println(sn.hashCode());
+        System.out.println(sn1.hashCode());
+
+
+        System.out.println("Find unique departments");
+
+        emplst.stream()
+                .map(Employee::getDepartment)
+                .distinct()
+                .forEach(System.out::println);
+
+
+        System.out.println("EMployee name starting with a");
+
+        emplst.stream()
+                .filter(e->e.getName().toLowerCase().startsWith("a"))
+                .forEach(System.out::println);
+
+
+        System.out.println("Level 2");
+
+        System.out.println("Sort employee by salary ascending order");
+
+        emplst.stream()
+                .map(Employee::getSalary)
+                .sorted()
+                .forEach(System.out::println);
+
+
+        System.out.println("Sort slary By descending order");
+
+        emplst.stream()
+                .map(Employee::getSalary)
+                .sorted(Comparator.reverseOrder())
+                .forEach(System.out::println);
+
+        System.out.println("Sort Employee by name");
+
+        emplst.stream()
+                .map(Employee::getName)
+                .sorted()
+                .forEach(System.out::println);
+
+        System.out.println("sort by department then salary");
+
+       Map<String,List<Double>> res=emplst.stream()
+                .collect(Collectors.groupingBy(Employee::getName,Collectors.mapping(
+                        Employee::getSalary,Collectors.toList()
+                )));
+       res.values().forEach(Collections::sort);
+
+        System.out.println(res);
+
+        System.out.println("Level 3");
+
+        System.out.println("Highest paid employees");
+
+        emplst.stream()
+                .map(Employee::getSalary)
+                .sorted(Comparator.reverseOrder())
+                .findFirst()
+                .ifPresent(System.out::println);
+
+        System.out.println("");
+
+    }
+}
