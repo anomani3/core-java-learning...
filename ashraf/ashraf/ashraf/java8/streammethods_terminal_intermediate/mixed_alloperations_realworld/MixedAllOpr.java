@@ -140,7 +140,16 @@ public class MixedAllOpr {
                 .findFirst()
                 .ifPresent(System.out::println);
 
-        System.out.println("");
+        System.out.println("Second highest salary");
+Optional<Double> reshs=    emplst.stream()
+                .map(Employee::getSalary)
+
+                .sorted(Comparator.reverseOrder())
+                .skip(1)
+                .findFirst();
+
+        System.out.println(reshs);
+
 
     }
 }
