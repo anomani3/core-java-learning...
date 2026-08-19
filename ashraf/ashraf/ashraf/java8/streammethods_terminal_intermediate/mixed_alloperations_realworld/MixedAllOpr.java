@@ -150,6 +150,31 @@ Optional<Double> reshs=    emplst.stream()
 
         System.out.println(reshs);
 
+        System.out.println("Third Highest salry");
 
+      Optional<Double> res2ndHS=  emplst.stream()
+                .map(Employee::getSalary)
+                .distinct()
+                .sorted(Comparator.reverseOrder())
+                .skip(2)
+                .findFirst();
+      res2ndHS.ifPresent(System.out::println);
+
+        System.out.println("Top 3 Highest paid employees");
+
+        emplst.stream()
+                .map(Employee::getSalary)
+                .distinct()
+                .sorted(Comparator.reverseOrder())
+                .limit(3)
+                .forEach(System.out::println);
+
+        System.out.println("Lowest threesalaries");
+
+        emplst.stream()
+                .map(Employee::getSalary)
+                .sorted()
+                .limit(3)
+                .forEach(System.out::println);
     }
 }
