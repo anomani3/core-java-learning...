@@ -11,12 +11,12 @@ public class MixedAllOpr {
     public static void main(String[] args) {
 
 
-        List<Employee> emplst= Arrays.asList(
-                new Employee(1,"Ashraf","IT","M",12000),
-                new Employee(2,"Manju","HR","F",7000),
-                new Employee(3,"Arish","Pharmacy","M",6000),
-                new Employee(4,"Kaju","Mechanical","M",10000),
-                new Employee(5,"Raju","IT","F",3000),
+        List<Employee> emplst = Arrays.asList(
+                new Employee(1, "Ashraf", "IT", "M", 12000),
+                new Employee(2, "Manju", "HR", "F", 7000),
+                new Employee(3, "Arish", "Pharmacy", "M", 6000),
+                new Employee(4, "Kaju", "Mechanical", "M", 10000),
+                new Employee(5, "Raju", "IT", "F", 3000),
                 new Employee(6, "Priya", "Finance", "F", 15000),
                 new Employee(7, "Rahul", "IT", "M", 18000),
                 new Employee(8, "Sneha", "HR", "F", 9000)
@@ -25,7 +25,7 @@ public class MixedAllOpr {
         System.out.println("Employees salary greater than 5000");
 
         emplst.stream()
-                .filter(e->e.getSalary()>5000)
+                .filter(e -> e.getSalary() > 5000)
                 .forEach(System.out::println);
 
 
@@ -40,15 +40,15 @@ public class MixedAllOpr {
 
 
         emplst.stream()
-                .filter(e->e.getDepartment().equalsIgnoreCase("IT"))
+                .filter(e -> e.getDepartment().equalsIgnoreCase("IT"))
                 .map(Employee::getName)
                 .forEach(System.out::println);
 
 
         System.out.println(" find unique departments");
 
-        String s="Welcome";
-        String sv="Welcome";
+        String s = "Welcome";
+        String sv = "Welcome";
 
         System.out.println(s.equals(sv));
 
@@ -56,26 +56,26 @@ public class MixedAllOpr {
         System.out.println(s.hashCode());
         System.out.println(sv.hashCode());
 
-        System.out.println(s==sv);
+        System.out.println(s == sv);
 
-        int i=128;
-        int j =128;
-        Integer k=128;
-        Integer l=128;
+        int i = 128;
+        int j = 128;
+        Integer k = 128;
+        Integer l = 128;
 
         System.out.println("integer");
 
         System.out.println(k.equals(l));
-        System.out.println(k==l);
+        System.out.println(k == l);
 
         System.out.println(k.hashCode());
 
         System.out.println(l.hashCode());
-        System.out.println(i==j);
+        System.out.println(i == j);
         System.out.println("Hashcode value of String with new keyword");
 
-        String sn=new String("Hello");
-        String sn1=new String("Hello");
+        String sn = new String("Hello");
+        String sn1 = new String("Hello");
 
         System.out.println(sn.hashCode());
         System.out.println(sn1.hashCode());
@@ -92,7 +92,7 @@ public class MixedAllOpr {
         System.out.println("EMployee name starting with a");
 
         emplst.stream()
-                .filter(e->e.getName().toLowerCase().startsWith("a"))
+                .filter(e -> e.getName().toLowerCase().startsWith("a"))
                 .forEach(System.out::println);
 
 
@@ -122,11 +122,11 @@ public class MixedAllOpr {
 
         System.out.println("sort by department then salary");
 
-       Map<String,List<Double>> res=emplst.stream()
-                .collect(Collectors.groupingBy(Employee::getName,Collectors.mapping(
-                        Employee::getSalary,Collectors.toList()
+        Map<String, List<Double>> res = emplst.stream()
+                .collect(Collectors.groupingBy(Employee::getName, Collectors.mapping(
+                        Employee::getSalary, Collectors.toList()
                 )));
-       res.values().forEach(Collections::sort);
+        res.values().forEach(Collections::sort);
 
         System.out.println(res);
 
@@ -141,7 +141,7 @@ public class MixedAllOpr {
                 .ifPresent(System.out::println);
 
         System.out.println("Second highest salary");
-Optional<Double> reshs=    emplst.stream()
+        Optional<Double> reshs = emplst.stream()
                 .map(Employee::getSalary)
 
                 .sorted(Comparator.reverseOrder())
@@ -152,13 +152,13 @@ Optional<Double> reshs=    emplst.stream()
 
         System.out.println("Third Highest salry");
 
-      Optional<Double> res2ndHS=  emplst.stream()
+        Optional<Double> res2ndHS = emplst.stream()
                 .map(Employee::getSalary)
                 .distinct()
                 .sorted(Comparator.reverseOrder())
                 .skip(2)
                 .findFirst();
-      res2ndHS.ifPresent(System.out::println);
+        res2ndHS.ifPresent(System.out::println);
 
         System.out.println("Top 3 Highest paid employees");
 
@@ -176,5 +176,19 @@ Optional<Double> reshs=    emplst.stream()
                 .sorted()
                 .limit(3)
                 .forEach(System.out::println);
+
+        System.out.println("Level 4");
+
+        System.out.println("Group Employee by department");
+
+        Map<String, List<Employee>> grpEmpList = emplst.stream()
+                .collect(Collectors.groupingBy(Employee::getDepartment));
+
+       grpEmpList.forEach((dept,emp)->{
+            System.out.println(dept+" :"+ emp);
+    });
+
+
+
     }
 }
