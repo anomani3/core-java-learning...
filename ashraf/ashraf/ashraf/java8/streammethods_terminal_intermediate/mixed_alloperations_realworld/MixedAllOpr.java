@@ -188,6 +188,16 @@ public class MixedAllOpr {
             System.out.println(dept+" :"+ emp);
     });
 
+        System.out.println("count employee in each department");
+
+       Map<String,Long> rescount= emplst.stream()
+
+                .collect(Collectors.groupingBy(Employee::getDepartment,
+                        Collectors.counting()));
+
+        System.out.println(rescount);
+
+
 
 
     }
