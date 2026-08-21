@@ -197,6 +197,12 @@ public class MixedAllOpr {
 
         System.out.println(rescount);
 
+        System.out.println("Average salary by department");
+
+        Map<String, Double> resAvg = emplst.stream()
+                .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.averagingDouble(Employee::getSalary)));
+
+        System.out.println(resAvg);
 
 
 
