@@ -204,6 +204,9 @@ public class MixedAllOpr {
 
         System.out.println(resAvg);
 
+        System.out.println("Maximum salary in each department");
+
+
 
 
     }
