@@ -5,6 +5,7 @@ import ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.rea
 import java.util.*;
 import java.util.stream.Collectors;
 
+
 import static java.util.Arrays.stream;
 
 public class MixedAllOpr {
@@ -20,6 +21,45 @@ public class MixedAllOpr {
                 new Employee(6, "Priya", "Finance", "F", 15000),
                 new Employee(7, "Rahul", "IT", "M", 18000),
                 new Employee(8, "Sneha", "HR", "F", 9000)
+        );
+
+        List<Order> orders = Arrays.asList(
+
+                new Order(101, "Ashraf", "COMPLETED", 15000, "UPI"),
+                new Order(102, "Rahul", "PENDING", 8500, "CARD"),
+                new Order(103, "Priya", "COMPLETED", 22000, "CARD"),
+                new Order(104, "John", "CANCELLED", 5000, "COD"),
+                new Order(105, "Amit", "COMPLETED", 12000, "UPI"),
+
+                new Order(106, "Ashraf", "COMPLETED", 18000, "CARD"),
+                new Order(107, "Priya", "PENDING", 7500, "UPI"),
+                new Order(108, "Rahul", "COMPLETED", 30000, "CARD"),
+                new Order(109, "Neha", "COMPLETED", 9500, "COD"),
+                new Order(110, "Amit", "CANCELLED", 4000, "UPI"),
+
+                new Order(111, "John", "COMPLETED", 27000, "CARD"),
+                new Order(112, "Neha", "PENDING", 6500, "COD"),
+                new Order(113, "Ashraf", "COMPLETED", 45000, "UPI"),
+                new Order(114, "Rahul", "CANCELLED", 3000, "CARD"),
+                new Order(115, "Priya", "COMPLETED", 16000, "UPI"),
+
+                new Order(116, "Amit", "COMPLETED", 25000, "CARD"),
+                new Order(117, "Neha", "COMPLETED", 11000, "COD"),
+                new Order(118, "John", "PENDING", 9000, "UPI"),
+                new Order(119, "Rahul", "COMPLETED", 55000, "CARD"),
+                new Order(120, "Ashraf", "CANCELLED", 7000, "COD"),
+
+                new Order(121, "Priya", "COMPLETED", 35000, "CARD"),
+                new Order(122, "Amit", "PENDING", 8000, "UPI"),
+                new Order(123, "Neha", "COMPLETED", 19000, "COD"),
+                new Order(124, "John", "COMPLETED", 42000, "CARD"),
+                new Order(125, "Rahul", "PENDING", 6000, "UPI"),
+
+                new Order(126, "Ashraf", "COMPLETED", 28000, "CARD"),
+                new Order(127, "Priya", "CANCELLED", 4500, "COD"),
+                new Order(128, "Amit", "COMPLETED", 32000, "UPI"),
+                new Order(129, "Neha", "PENDING", 10000, "CARD"),
+                new Order(130, "John", "COMPLETED", 50000, "UPI")
         );
 
         System.out.println("Employees salary greater than 5000");
@@ -207,7 +247,15 @@ public class MixedAllOpr {
         System.out.println("Maximum salary in each department");
 
 
+        System.out.println("Level 6");
+
+        System.out.println("List olf completed orders");
+
+        orders.stream()
+                .filter(o->o.getOrderStatus().equalsIgnoreCase("COMPLETED"))
+                .forEach(System.out::println);
 
 
+        System.out.println("");
     }
 }
