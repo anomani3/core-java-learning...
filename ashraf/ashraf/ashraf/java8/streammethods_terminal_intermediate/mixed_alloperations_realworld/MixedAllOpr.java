@@ -256,6 +256,14 @@ public class MixedAllOpr {
                 .forEach(System.out::println);
 
 
-        System.out.println("");
+        System.out.println("Second Highest number from list");
+
+        List<Integer> ilst=Arrays.asList(1,2,10,1,34,24,0,25);
+       Optional<Integer> ires= ilst.stream()
+                .sorted(Comparator.reverseOrder())
+                .distinct()
+                .skip(1)
+                .findFirst();
+        System.out.println(ires);
     }
 }

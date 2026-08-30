@@ -5,10 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef5da11-1b77-43f4-9a95-3330642af463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/mixed_alloperations_realworld/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/AccountingAllocationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/BankAllocationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/BatchAllocationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/BillAllocationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/ImportEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/InventoryEntryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/LedgerEntryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/RateDetailEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/VoucherEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/repository/AccountingAllocationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/repository/BankAllocationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/repository/BatchAllocationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/repository/BillAllocationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/repository/ImportRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/repository/InventoryEntryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/repository/LedgerEntryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/repository/RateDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/repository/VoucherRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/entity/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/mixed_alloperations_realworld/MixedAllOpr.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/mixed_alloperations_realworld/MixedAllOpr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ashraf/ashraf/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/mixed_alloperations_realworld/MixedAllOpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ashraf/ashraf/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/mixed_alloperations_realworld/MixedAllOpr.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/workspace.xml" afterDir="false" />
     </list>
