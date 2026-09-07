@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef5da11-1b77-43f4-9a95-3330642af463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/mixed_alloperations_realworld/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/mixed_alloperations_realworld/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/mixed_alloperations_realworld/SecretMessageDecorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/someinterviewquestions_random/PalendromeString.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/AccountingAllocationEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/BankAllocationEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/BatchAllocationEntity.java" afterDir="false" />
@@ -86,6 +84,7 @@
     "Application.NumberOfMailAndFemaleEmployee.executor": "Run",
     "Application.OccuranceOfCharacter.executor": "Run",
     "Application.Palendrome.executor": "Run",
+    "Application.PalendromeString.executor": "Run",
     "Application.PalindromeCheck.executor": "Run",
     "Application.PrefixCa.executor": "Run",
     "Application.ReduceDemo.executor": "Run",
@@ -107,7 +106,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Counter">
+  <component name="RunManager" selected="Application.PalendromeString">
     <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.mixed_alloperations_realworld.Counter" />
       <module name="ashraf" />
@@ -160,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ashraf.DSAProblems.ReverseChars" />
+    <configuration name="PalendromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.someinterviewquestions_random.PalendromeString" />
       <module name="ashraf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ashraf.DSAProblems.*" />
+          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.someinterviewquestions_random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalendromeString" />
         <item itemvalue="Application.Counter" />
         <item itemvalue="Application.DataDecorder" />
         <item itemvalue="Application.MixedAllOpr" />
         <item itemvalue="Application.Palendrome" />
-        <item itemvalue="Application.ReverseChars" />
       </list>
     </recent_temporary>
   </component>
