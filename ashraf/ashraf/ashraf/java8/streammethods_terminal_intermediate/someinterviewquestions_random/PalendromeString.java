@@ -38,10 +38,20 @@ public class PalendromeString {
         System.out.println(count);
     }
 
+    public void reverseString(String str){
+       String rev="";
+
+       for(int i=str.length()-1;i>=0;i--){
+           rev=rev+str.charAt(i);
+       }
+        System.out.println(rev);
+    }
+
     public static void main(String[] args) {
         PalendromeString p=new PalendromeString();
         System.out.println(p.isPalendromeString("madam"));
         System.out.println(p.isPalendromeInteger(121));
+        p.reverseString("Hello");
 
         p.countDigit(1234);
 

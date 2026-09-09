@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef5da11-1b77-43f4-9a95-3330642af463" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/someinterviewquestions_random/PalendromeString.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/AccountingAllocationEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/BankAllocationEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/BatchAllocationEntity.java" afterDir="false" />
@@ -26,6 +25,8 @@
       <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/repository/VoucherRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BakerHughes/order-service/order-service/src/main/java/com/backerhughes/orderservice/entity/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/someinterviewquestions_random/PalendromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/someinterviewquestions_random/PalendromeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ashraf/ashraf/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/someinterviewquestions_random/PalendromeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ashraf/ashraf/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/someinterviewquestions_random/PalendromeString.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DSAGFGJAVa/.idea/workspace.xml" afterDir="false" />
     </list>
