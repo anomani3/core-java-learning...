@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef5da11-1b77-43f4-9a95-3330642af463" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/someinterviewquestions_random/StudyPoolDemoClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ashraf/ashraf/ashraf/java8/streammethods_terminal_intermediate/someinterviewquestions_random/StudyPoolDivisionProgram.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/AccountingAllocationEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/BankAllocationEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tally-take-home-project-assignment/tally-fixture/src/main/java/com/tally_fixture_take_home/entity/BatchAllocationEntity.java" afterDir="false" />
@@ -72,6 +74,7 @@
     "Application.ExceptiondEmon.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
     "Application.FindSquaeOfEvenNumbers.executor": "Run",
+    "Application.HashMapDCemo.executor": "Run",
     "Application.HighestSalary.executor": "Run",
     "Application.LimitDemo.executor": "Run",
     "Application.MAin.executor": "Run",
@@ -95,6 +98,8 @@
     "Application.SecondHighestSalary.executor": "Run",
     "Application.SkipDemo.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.StudyPoolDemoClass.executor": "Run",
+    "Application.StudyPoolDivisionProgram.executor": "Run",
     "Application.SumOfDiagonalsMatrix.executor": "Run",
     "Application.ashraf.ashraf.ashraf.ashraf.java8.AverageSalary.executor": "Run",
     "Application.ashraf.univesity_management.Main.executor": "Run",
@@ -107,7 +112,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PalendromeString">
+  <component name="RunManager" selected="Application.HashMapDCemo">
     <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.mixed_alloperations_realworld.Counter" />
       <module name="ashraf" />
@@ -121,38 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataDecorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.mixed_alloperations_realworld.DataDecorder" />
+    <configuration name="HashMapDCemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.someinterviewquestions_random.hashmap.HashMapDCemo" />
       <module name="ashraf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.mixed_alloperations_realworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MixedAllOpr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.mixed_alloperations_realworld.MixedAllOpr" />
-      <module name="ashraf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.mixed_alloperations_realworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Palendrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ashraf.DSAProblems.Palendrome" />
-      <module name="ashraf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ashraf.DSAProblems.*" />
+          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.someinterviewquestions_random.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,13 +152,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudyPoolDemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.someinterviewquestions_random.StudyPoolDemoClass" />
+      <module name="ashraf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.someinterviewquestions_random.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyPoolDivisionProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.someinterviewquestions_random.StudyPoolDivisionProgram" />
+      <module name="ashraf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.someinterviewquestions_random.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapDCemo" />
         <item itemvalue="Application.PalendromeString" />
+        <item itemvalue="Application.StudyPoolDivisionProgram" />
+        <item itemvalue="Application.StudyPoolDemoClass" />
         <item itemvalue="Application.Counter" />
-        <item itemvalue="Application.DataDecorder" />
-        <item itemvalue="Application.MixedAllOpr" />
-        <item itemvalue="Application.Palendrome" />
       </list>
     </recent_temporary>
   </component>

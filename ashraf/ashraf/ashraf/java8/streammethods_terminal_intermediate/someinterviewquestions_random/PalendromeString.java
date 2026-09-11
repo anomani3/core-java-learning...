@@ -1,8 +1,11 @@
 package ashraf.ashraf.ashraf.ashraf.java8.streammethods_terminal_intermediate.someinterviewquestions_random;
 
 import java.sql.SQLOutput;
+import java.util.Arrays;
 
 public class PalendromeString {
+
+
     public boolean isPalendromeString(String s){
         String rev="";
         for (int i=s.length()-1;i>=0;i--){
@@ -47,13 +50,39 @@ public class PalendromeString {
         System.out.println(rev);
     }
 
+    public void reverseNumber(int num){
+        int rev=0;
+
+        while(num>0){
+            int digit=num%10;
+            rev=rev*10+digit;
+            num=num/10;
+
+        }
+        System.out.println(rev);
+    }
+
+    public boolean isPalendromeJava8(String s){
+
+     return s.equals(new StringBuffer(s)
+              .reverse()
+              .toString()
+      );
+
+
+
+    }
+
+
     public static void main(String[] args) {
         PalendromeString p=new PalendromeString();
         System.out.println(p.isPalendromeString("madam"));
         System.out.println(p.isPalendromeInteger(121));
         p.reverseString("Hello");
+        p.reverseNumber(123);
 
         p.countDigit(1234);
+        System.out.println(p.isPalendromeJava8("abba"));
 
 
     }
